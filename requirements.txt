@@ -1,0 +1,11 @@
+# Tested with: Python 3.13, numpy 2.5, scipy 1.18, pandas 3.0, xarray 2026.9, netCDF4 1.7, plotly 7.1, streamlit 1.67, pytest 9.1
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+xarray>=2023.12
+netCDF4>=1.6
+plotly>=5.18
+streamlit>=1.50
+pytest>=7.4
+# Only needed for pipeline/download_earthaccess.py:
+# earthaccess>=0.9
