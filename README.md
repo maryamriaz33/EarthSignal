@@ -52,11 +52,4 @@ tests/                     Statistics, pipeline, and data-conversion tests
 docs/                      METHODS.md, DATA.md, VALIDATION.md, SUBMISSION.md
 ```
 
-## Known limits
 
-- About 20 to 25 annual values per cell give modest power. A total change of about three times the year-to-year noise is found about half the time (`docs/VALIDATION.md`).
-- No analytic serial-correlation correction is exact at this length. False positives stay somewhat above nominal for strongly persistent variables.
-- Neighbouring cells share noise, so the false-discovery procedure can be optimistic.
-- Trends are associations in data. Irrigation, land-cover change, sensor changes and cloud gaps can produce them.
-- `build_annual.py` does not apply per-product quality flags; use quality-screened inputs or add masking.
-- The 6 variables and their NASA product names in `catalog.py` are candidates; check each on NASA Earthdata Search.
